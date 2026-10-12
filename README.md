@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:6d28d9&height=230&section=header&text=AlfredBateman&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20%E2%80%A2%20AI%20Engineering%20%E2%80%A2%20Testing%20%26%20CI%2FCD&descAlignY=58&descSize=18" width="100%"/>
+<img src="assets/header.svg" width="100%" alt="AlfredBateman — Full Stack • AI Engineering • Testing &amp; CI/CD"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&repeat=true&width=760&height=50&lines=Building+full-stack+and+AI-powered+applications;Regression+testing+for+LLM+agents;Validating+LLM+output+before+it+ships;Python+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+%E2%80%A2+FastAPI" alt="Typing SVG"/>
 
@@ -77,20 +77,6 @@ I approach every project with a **product engineering mindset**: ship a working 
 
 ---
 
-## AI / ML Expertise
-
-| Domain | Proficiency | Details |
-|:--|:--:|:--|
-| **LLM Agent Evaluation** | ![Strong](https://img.shields.io/badge/Strong-7c3aed?style=flat-square) | Trace and tool-call judging, rule-based, LLM-rubric and consistency judges, regression gating in CI |
-| **Statistical Testing for AI Systems** | ![Strong](https://img.shields.io/badge/Strong-7c3aed?style=flat-square) | Fisher exact test, Tarone–Holm correction, paired sign-flip permutation tests, exact rational arithmetic |
-| **LLM Output Validation** | ![Strong](https://img.shields.io/badge/Strong-7c3aed?style=flat-square) | Zod schema validation, verbatim quote checks, discard-on-invalid, human-in-the-loop approval |
-| **LLM Integration** | ![Proficient](https://img.shields.io/badge/Proficient-6d28d9?style=flat-square) | Gemini API, LiteLLM, hosted-model fallbacks, answer caching, rate limiting |
-| **Model Context Protocol (MCP)** | ![Proficient](https://img.shields.io/badge/Proficient-6d28d9?style=flat-square) | HTTP, MCP, and Python agent adapters with SSRF protection |
-| **Natural-Language Query Pipelines** | ![Proficient](https://img.shields.io/badge/Proficient-6d28d9?style=flat-square) | Typo correction, deterministic rule parsers, LLM tiers, evaluation harnesses |
-| **Vector Search** | ![Working Knowledge](https://img.shields.io/badge/Working%20Knowledge-4f46e5?style=flat-square) | PostgreSQL with pgvector |
-
----
-
 ## Coding Profiles
 
 <div align="center">
@@ -142,6 +128,6 @@ exploring:
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,50:302b63,100:0f0c29&height=130&section=footer" width="100%"/>
+<img src="assets/footer.svg" width="100%" alt=""/>
 
 </div>
