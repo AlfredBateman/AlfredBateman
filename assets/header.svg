@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.5" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#g)" d="M0 0H1200V170C1100 205 1000 215 900 195C760 167 650 140 500 165C350 190 220 215 100 200C60 195 25 185 0 175Z"/>
+  <path fill="#6d28d9" fill-opacity="0.18" d="M0 175C120 215 260 225 420 190C560 160 700 150 860 185C1000 215 1110 205 1200 175V195C1100 225 980 230 850 205C700 175 560 180 430 210C280 240 120 230 0 195Z"/>
+  <text x="600" y="92" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700">AlfredBateman</text>
+  <text x="600" y="138" text-anchor="middle" fill="#e9e3ff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20">Full Stack • AI Engineering • Testing &amp; CI/CD</text>
+</svg>
