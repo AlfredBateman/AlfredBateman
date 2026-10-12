@@ -5,9 +5,29 @@
       <stop offset="0.5" stop-color="#302b63"/>
       <stop offset="1" stop-color="#6d28d9"/>
     </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
   </defs>
+  <style>
+    .drift-a { animation: drift-a 14s linear infinite; }
+    .drift-b { animation: drift-b 22s linear infinite; }
+    .glow { transform-origin: 600px 85px; animation: pulse 5s ease-in-out infinite; }
+    .title { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
+    .subtitle { animation: rise 1s cubic-bezier(.2,.7,.2,1) .5s both; }
+    @keyframes drift-a { to { transform: translateX(-600px); } }
+    @keyframes drift-b { from { transform: translateX(-800px); } to { transform: translateX(0); } }
+    @keyframes pulse { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .drift-a, .drift-b, .glow, .title, .subtitle { animation: none; }
+    }
+  </style>
   <path fill="url(#g)" d="M0 0H1200V170C1100 205 1000 215 900 195C760 167 650 140 500 165C350 190 220 215 100 200C60 195 25 185 0 175Z"/>
-  <path fill="#6d28d9" fill-opacity="0.18" d="M0 175C120 215 260 225 420 190C560 160 700 150 860 185C1000 215 1110 205 1200 175V195C1100 225 980 230 850 205C700 175 560 180 430 210C280 240 120 230 0 195Z"/>
-  <text x="600" y="92" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700">AlfredBateman</text>
-  <text x="600" y="138" text-anchor="middle" fill="#e9e3ff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20">Full Stack • AI Engineering • Testing &amp; CI/CD</text>
+  <path class="drift-b" fill="#6d28d9" fill-opacity="0.16" d="M0 0V194C200 185 200 185 400 194S600 203 800 194C1000 185 1000 185 1200 194S1400 203 1600 194C1800 185 1800 185 2000 194S2200 203 2400 194V0Z"/>
+  <path class="drift-a" fill="#8b5cf6" fill-opacity="0.14" d="M0 0V182C150 170 150 170 300 182S450 194 600 182C750 170 750 170 900 182S1050 194 1200 182C1350 170 1350 170 1500 182S1650 194 1800 182C1950 170 1950 170 2100 182S2250 194 2400 182V0Z"/>
+  <ellipse class="glow" cx="600" cy="85" rx="300" ry="70" fill="url(#glow)"/>
+  <text class="title" x="600" y="92" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700">AlfredBateman</text>
+  <text class="subtitle" x="600" y="138" text-anchor="middle" fill="#e9e3ff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20">Full Stack • AI Engineering • Testing &amp; CI/CD</text>
 </svg>
