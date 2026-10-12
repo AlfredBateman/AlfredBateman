@@ -30,6 +30,20 @@ I approach every project with a **product engineering mindset**: ship a working 
 
 ---
 
+## Featured Project
+
+### [StockPilot](https://github.com/AlfredBateman/StockPilot)
+
+A beginner-friendly stock screener for about 100 Indian stocks. Type a search in plain English and StockPilot turns it into filters you can read and edit, fixes typos, and suggests which filter to drop when nothing matches. An optional AI helper is validated with zod and falls back to an offline keyword parser, so search always works.
+
+<a href="https://github.com/AlfredBateman/StockPilot"><img src="assets/stockpilot-demo.gif" width="100%" alt="StockPilot demo: the search 'cheap profitable midcaps that fell this month' becomes four filters and 9 results, then the typo 'techonolgy stocks with low debt' is corrected and filtered"/></a>
+
+<sub>Recorded in offline demo mode, so the filters come from the keyword parser with no AI calls.</sub>
+
+**Stack:** TypeScript, React, Vite, Tailwind CSS, Express, zod, MongoDB, Vitest, GitHub Actions, Render · [Live demo](https://stockpilot-hw7d.onrender.com/)
+
+---
+
 ## Tech Stack
 
 <div align="center">
