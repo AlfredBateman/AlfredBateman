@@ -1,13 +1,68 @@
-# Ishan Sharma
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/hero?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman hero visual" />
+</p>
 
-Final-year B.E. CSE student at Chitkara University, graduating 2027, India. Looking for a backend or full-stack internship or entry-level role.
+<p align="center"><b>ishan;</b> · Frontend or full-stack engineer<br/><sub>Final year CSE student who enjoys building small tools, experimenting with web apps, and occasionally breaking things just to understand how they work.</sub></p>
 
-[ishan.sh.1148@gmail.com](mailto:ishan.sh.1148@gmail.com) · [LinkedIn](https://linkedin.com/in/ishansharma1247) · [Portfolio](https://alfredbateman.github.io/portfolio-v3/)
+<p align="center"><a href="https://github.com/alfredbateman">GitHub</a></p>
 
-### How I work
+<details open>
+<summary><b>📌 Top projects</b></summary>
+<br/>
 
-- **I handle flaky LLM-agent tests statistically, not run by run.** In a simulated calibration grid, AgentProbe's regression verdict had a worst-case false-alarm rate of 2.8% against its configured 5% budget. [Calibration](https://github.com/AlfredBateman/AgentProbe/blob/main/docs/metrics.md#null-calibration-each-channel-and-the-combined-verdict)
-- **My AI features keep working when the model doesn't.** With the AI helper off, StockPilot's offline parser returned exactly the expected filters for 80 of 81 test queries, which I wrote myself and have not had reviewed. [Eval results](https://github.com/AlfredBateman/StockPilot/blob/main/eval/results.md)
-- **I write down what doesn't work.** Most of my repos have a limitations section saying what is unmeasured or unsupported. [Example](https://github.com/AlfredBateman/AgentProbe#known-limitations)
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/projects?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman projects visual" />
+</p>
 
-**Tech:** Python · TypeScript · FastAPI · Next.js · PostgreSQL · Docker · GitHub Actions
+- [AgentProbe](https://github.com/AlfredBateman/AgentProbe) · ★ 0 — Statistically-corrected, flakiness-aware regression detection for LLM agents, wired into a real CI-g
+- [CanvasLint](https://github.com/AlfredBateman/CanvasLint) · ★ 0 — A Manifest V3 Chrome DevTools extension that intercepts Canvas 2D drawing calls and replays them on 
+- [investorlens](https://github.com/AlfredBateman/investorlens) · ★ 0 — UX research management app: interviews, findings, personas, journey maps, recommendations, with opt-
+- [portfolio-v3](https://github.com/AlfredBateman/portfolio-v3) · ★ 0 — Portfolio of Ishan Sharma, software engineer (backend / full-stack). Astro, GSAP, a compass.
+- [SnapCodeCLI](https://github.com/AlfredBateman/SnapCodeCLI) · ★ 0 — Turn a source file into a syntax-highlighted code-screenshot PNG from the terminal, with a local web
+- [StockPilot](https://github.com/AlfredBateman/StockPilot) · ★ 0 — Beginner-friendly screener for about 100 NIFTY stocks with end-of-day data and AI-assisted plain-Eng
+
+</details>
+
+<details>
+<summary><b>🧰 Stack</b></summary>
+<br/>
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman stack visual" />
+</p>
+
+</details>
+
+<details>
+<summary><b>📊 By the numbers</b></summary>
+<br/>
+
+<b>8</b> public repositories, <b>0</b> stars, <b>396</b> contributions in the last year, a longest streak of <b>19</b> days and <b>1</b> followers.
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stats?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman stats visual" />
+</p>
+
+</details>
+
+<details>
+<summary><b>🟩 Activity</b></summary>
+<br/>
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=alfredbateman&theme=neon" alt="alfredbateman contribution activity" />
+</p>
+
+</details>
+
+<details>
+<summary><b>👋 Say hello</b></summary>
+<br/>
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman social visual" />
+</p>
+
+</details>
+
+<p align="center"><sub>ishan; · Everything hub generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
