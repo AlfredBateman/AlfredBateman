@@ -139,8 +139,8 @@ def hero(archivo, anek, p):
     r = 98 * s
     cx, cy = W - M - 64 - r * 0.6, 36 + r
     tag = {"wdth": 100, "wght": 500}
-    t1 = archivo.path("Software engineer,", tag, 34, M, M + 26)
-    t2 = archivo.path("backend and full-stack", tag, 34, M, M + 26 + 44)
+    t1 = archivo.path("Software engineer,", tag, 44, M, M + 32)  # 44 so it is still ~14px on a phone
+    t2 = archivo.path("backend and full-stack", tag, 44, M, M + 32 + 56)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"'
             f' role="img" aria-label="Ishan Sharma, software engineer, backend and full-stack">{MOTION}'
             f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" fill="{p["bg"]}" stroke="{p["line"]}"/>'
