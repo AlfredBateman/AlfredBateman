@@ -1,68 +1,22 @@
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman hero visual" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="1012" alt="Ishan Sharma, software engineer, backend and full-stack. Beside the name, a compass dial whose red needle points northeast, at 045 degrees, toward the NE mark labelled ईशान (Ishan, in Devanagari).">
+</picture>
 
-<p align="center"><b>ishan;</b> · Frontend or full-stack engineer<br/><sub>Final year CSE student who enjoys building small tools, experimenting with web apps, and occasionally breaking things just to understand how they work.</sub></p>
+Final-year B.E. Computer Science Engineering student at Chitkara University, India, expected to graduate in August 2027. I build backend and full-stack software, and I am looking for an internship or an entry-level role.
 
-<p align="center"><a href="https://github.com/alfredbateman">GitHub</a></p>
+[ishan.sh.1148@gmail.com](mailto:ishan.sh.1148@gmail.com) | [LinkedIn](https://www.linkedin.com/in/ishansharma1247) | [Portfolio](https://alfredbateman.github.io/portfolio-v3/) | [Résumé (PDF)](https://alfredbateman.github.io/portfolio-v3/ishan-sharma-resume.pdf)
 
-<details open>
-<summary><b>📌 Top projects</b></summary>
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="1012" alt="Divider: a compass bearing scale from 0 to 360 degrees, with the 045 degree mark in red.">
+</picture>
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman projects visual" />
-</p>
+## How I work
 
-- [AgentProbe](https://github.com/AlfredBateman/AgentProbe) · ★ 0 — Statistically-corrected, flakiness-aware regression detection for LLM agents, wired into a real CI-g
-- [CanvasLint](https://github.com/AlfredBateman/CanvasLint) · ★ 0 — A Manifest V3 Chrome DevTools extension that intercepts Canvas 2D drawing calls and replays them on 
-- [investorlens](https://github.com/AlfredBateman/investorlens) · ★ 0 — UX research management app: interviews, findings, personas, journey maps, recommendations, with opt-
-- [portfolio-v3](https://github.com/AlfredBateman/portfolio-v3) · ★ 0 — Portfolio of Ishan Sharma, software engineer (backend / full-stack). Astro, GSAP, a compass.
-- [SnapCodeCLI](https://github.com/AlfredBateman/SnapCodeCLI) · ★ 0 — Turn a source file into a syntax-highlighted code-screenshot PNG from the terminal, with a local web
-- [StockPilot](https://github.com/AlfredBateman/StockPilot) · ★ 0 — Beginner-friendly screener for about 100 NIFTY stocks with end-of-day data and AI-assisted plain-Eng
-
-</details>
-
-<details>
-<summary><b>🧰 Stack</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman stack visual" />
-</p>
-
-</details>
-
-<details>
-<summary><b>📊 By the numbers</b></summary>
-<br/>
-
-<b>8</b> public repositories, <b>0</b> stars, <b>396</b> contributions in the last year, a longest streak of <b>19</b> days and <b>1</b> followers.
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman stats visual" />
-</p>
-
-</details>
-
-<details>
-<summary><b>🟩 Activity</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=alfredbateman&theme=neon" alt="alfredbateman contribution activity" />
-</p>
-
-</details>
-
-<details>
-<summary><b>👋 Say hello</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=alfredbateman&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F210757271%3Fu%3D4c52a9c9b7c4a5fca599ae578a9caa710e96583c%26v%3D4" alt="alfredbateman social visual" />
-</p>
-
-</details>
-
-<p align="center"><sub>ishan; · Everything hub generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+- **I judge flaky LLM-agent tests with statistics, not single runs:** in AgentProbe's calibration grid of simulated agents that did not change, the worst false-alarm rate was 2.8% against a 5% budget.
+  [Calibration grid in docs/metrics.md](https://github.com/AlfredBateman/AgentProbe/blob/main/docs/metrics.md#null-calibration-each-channel-and-the-combined-verdict)
+- **StockPilot's search still works with the AI helper off:** its offline rule parser meets 80 of 81 expectations, on queries and expected results I wrote by hand and have not independently reviewed.
+  [Evaluation in eval/results.md](https://github.com/AlfredBateman/StockPilot/blob/main/eval/results.md)
+- **Most projects pinned here say what does not work yet,** in a Limitations section of their README.
+  [Example: AgentProbe's known limitations](https://github.com/AlfredBateman/AgentProbe#known-limitations)
